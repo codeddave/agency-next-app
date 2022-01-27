@@ -9,11 +9,11 @@ const Navbar = () => {
           <Link href="/products/design"> DESIGN</Link>
         </li>
         <li className={styles.listItem}>
-          <Link href="/products/development"> DEVELOPMENT</Link>
-        </li>{" "}
+          <Link href="/products/development">DEVELOPMENT</Link>
+        </li>
         <li className={styles.listItem}>
           <Link href="/products/production"> PRODUCTION</Link>
-        </li>{" "}
+        </li>
         <li className={styles.listItem}>
           <Link href="/products/photography"> PHOTOGRAPHY</Link>
         </li>
