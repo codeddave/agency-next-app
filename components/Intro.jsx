@@ -15,6 +15,8 @@ const Intro = () => {
           Create live segments and target the right people for messsages based
           on their behaviours
         </p>
+
+        <button className={styles.button}>DISCOVER</button>
       </div>
       <div className={styles.card}>Second</div>
     </div>

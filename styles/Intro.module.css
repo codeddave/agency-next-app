@@ -1,5 +1,28 @@
 .container {
   width: 100%;
   height: calc(100vh - 50px);
-  background-color: red;
+  display: flex;
+}
+
+.card {
+  flex: 1;
+  padding: 100px;
+  padding-right: 0;
+}
+
+.title {
+  font-size: 50px;
+}
+
+.brand {
+  color: green;
+}
+
+.button {
+  border: none;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  width: 100px;
+  padding: 20px;
 }
