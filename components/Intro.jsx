@@ -5,6 +5,7 @@ import styles from "../styles/Intro.module.css";
 const Intro = () => {
   return (
     <div className={styles.container}>
+      <div className={styles.blend}></div>
       <div className={styles.hero}>
         <Image
           src="/img/agency-six.jpg"
