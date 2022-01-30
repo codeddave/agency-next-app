@@ -20,7 +20,7 @@ const Intro = () => {
       <div className={styles.card}>
         <h1 className={styles.title}>
           {" "}
-          <span className={styles.brand}>AVOCAD0</span> DIGITAL PRODUCT AGENCY
+          <span className={styles.brand}>PRODEV</span> DIGITAL PRODUCT AGENCY
         </h1>
 
         <p className={styles.description}>
