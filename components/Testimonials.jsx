@@ -14,6 +14,7 @@ const Testimonials = () => {
 
             <div className={styles.person}>
               <Image
+                className={styles.avatar}
                 src={`/img/${user.avatar}`}
                 width="45"
                 height="45"

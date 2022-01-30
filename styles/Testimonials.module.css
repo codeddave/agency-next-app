@@ -3,6 +3,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-top: 8rem;
   border: 2px solid black;
 }
 
@@ -25,4 +26,26 @@
   letter-spacing: 2px;
   padding: 20px 0;
   color: rgb(99, 99, 99);
+}
+
+.person {
+  display: flex;
+  align-items: center;
+}
+.avatar {
+  border-radius: 50%;
+}
+.info {
+  display: flex;
+  flex-direction: column;
+  color: #555;
+  margin-left: 20px;
+}
+
+.username {
+  font-weight: bold;
+}
+
+.jobTitle {
+  font-size: 14px;
 }
