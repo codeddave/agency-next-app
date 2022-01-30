@@ -29,6 +29,7 @@ const Services = ({ services }) => {
                     width="100%"
                     height="100%"
                     layout="responsive"
+                    objectFit="cover"
                     alt={service.name}
                   />
                 )}

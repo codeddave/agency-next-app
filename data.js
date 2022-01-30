@@ -146,7 +146,7 @@ export const users = [
   {
     id: 1,
     logo: "yahoo.png",
-    avatar: "user1.jpeg",
+    avatar: "person-two.jpg",
     comment:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
     name: "Harold Brown",
@@ -155,7 +155,7 @@ export const users = [
   {
     id: 2,
     logo: "google.png",
-    avatar: "user2.jpeg",
+    avatar: "person-one.jpg",
     comment:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
     name: "Anna Taylor",
@@ -164,7 +164,7 @@ export const users = [
   {
     id: 3,
     logo: "facebook.png",
-    avatar: "user3.jpeg",
+    avatar: "person-three.jpg",
     comment:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
     name: "James Garry",
