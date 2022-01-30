@@ -10,7 +10,7 @@ const Testimonials = () => {
         {users.map((user) => (
           <div key={user.id} className={styles.card}>
             <Image src={`/img/${user.logo}`} width="30" height="30" alt="" />
-            <p className={styles.person}>{user.comment}</p>
+            <p className={styles.comment}>{user.comment}</p>
 
             <div className={styles.person}>
               <Image
