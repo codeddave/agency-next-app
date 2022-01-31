@@ -147,8 +147,7 @@ export const users = [
     id: 1,
     logo: "yahoo.png",
     avatar: "person-two.jpg",
-    comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
+    comment: "Benefitted immensely from their amazing services.",
     name: "Harold Brown",
     title: "Executive Manager",
   },
@@ -156,8 +155,7 @@ export const users = [
     id: 2,
     logo: "google.png",
     avatar: "person-one.jpg",
-    comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
+    comment: "prodev greatly improved my business operations.",
     name: "Anna Taylor",
     title: "HR Manager",
   },
@@ -165,8 +163,7 @@ export const users = [
     id: 3,
     logo: "facebook.png",
     avatar: "person-three.jpg",
-    comment:
-      "Lorem ipsum dolor sit amet consectetur adipisicing elit. Utconsectetur veniam fugiat labore quaerat possimus laudantium.",
+    comment: "Highly recommend Prodev, they're super reliable.",
     name: "James Garry",
     title: "UI Designer",
   },
