@@ -20,3 +20,13 @@ export const getStaticPaths = async () => {
     fallback: false,
   };
 };
+
+export const getStaticProps = async (context) => {
+  const name = context.params.name;
+
+  const product = data.find((prod) => prod.name === name);
+
+  return {
+    props: { product },
+  };
+};
