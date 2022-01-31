@@ -1,5 +1,26 @@
-.container {
+.footer {
   background-color: black;
+}
+.container {
   color: white;
-  padding: 4rem 100px;
+  padding: 4rem 0px;
+  display: flex;
+  width: 90%;
+  margin: auto;
+  justify-content: space-around;
+}
+.logo {
+  font-size: 2.2rem;
+}
+
+.second {
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  padding-left: 5rem;
+}
+
+.block {
+  display: block;
 }
