@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 import { data } from "../../data";
 import styles from "../../styles/Product.module.css";
@@ -18,7 +19,13 @@ const Product = ({ product }) => {
           </div>
         ))}
       </div>
-      <div className={styles.smallCard}></div>
+      <div className={styles.smallCard}>
+        <p className={styles.title}>{product.title}</p>
+        <p className={styles.desc}>{product.longDesc}</p>
+        <button className={styles.button}>
+          <Link href="/contact">Contact</Link>
+        </button>
+      </div>
     </div>
   );
 };
