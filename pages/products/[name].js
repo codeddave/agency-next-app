@@ -6,7 +6,7 @@ const Product = ({ product }) => {
   return (
     <div className={styles.container}>
       <div className={styles.largeCard}>
-        {product.images((img) => (
+        {product.images.map((img) => (
           <div key={img.id} className={styles.imageContainer}>
             <Image
               src={img.url}
