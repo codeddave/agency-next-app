@@ -49,17 +49,31 @@
   letter-spacing: 5px;
   font-size: 22px;
 }
+
+@media screen and (max-width: 680px) {
+  .container {
+    padding: 0;
+    padding-top: 3rem;
+  }
+  .service {
+    width: 360px;
+    height: 360px;
+  }
+  .services {
+    justify-content: center;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .container {
     padding: 0;
+    padding-top: 3rem;
   }
   .service {
     width: 300px;
     height: 300px;
   }
   .services {
-    display: block;
-    flex-wrap: nowrap;
     justify-content: center;
   }
 }
