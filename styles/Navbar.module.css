@@ -26,7 +26,12 @@
   font-weight: 900;
   font-size: 16px;
 }
-
+.hamburger {
+  display: none;
+}
+.menuItem {
+  padding-bottom: 1rem;
+}
 @media screen and (max-width: 780px) {
   .container {
     padding: 0 20px;
@@ -45,6 +50,30 @@
   }
   .container {
     padding: 0 20px;
+  }
+  .hamburger {
+    display: flex;
+    flex-direction: column;
+  }
+  .menu {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    position: absolute;
+    width: 100%;
+    top: 160px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 99;
+    padding: 1rem 0;
+    opacity: 0.75;
+    list-style: none;
+  }
+  .menuItem {
+    width: max-content;
   }
 }
 
