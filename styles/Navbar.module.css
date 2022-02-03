@@ -4,7 +4,7 @@
   color: white;
   display: flex;
   align-items: center;
-  padding: 0 100px;
+  padding: 0 50px;
   font-size: 18px;
   justify-content: space-between;
   z-index: 3;
@@ -25,4 +25,28 @@
 .listItem:hover {
   font-weight: 900;
   font-size: 16px;
+}
+
+@media screen and (max-width: 780px) {
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 690px) {
+  .container {
+    padding: 0 5px;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .listItem {
+    display: none;
+  }
+  .container {
+    padding: 0 20px;
+  }
+}
+
+@media screen and (max-width: 480px) {
 }
