@@ -69,7 +69,9 @@
     margin-bottom: 3rem;
     width: 80%;
   }
-}
-
-@media screen and (max-width: 480px) {
+  .person {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
 }
