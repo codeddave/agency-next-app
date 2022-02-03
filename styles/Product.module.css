@@ -46,3 +46,35 @@
   font-size: 20px;
   padding-top: 2.5rem;
 }
+
+@media screen and (max-width: 680px) {
+  .title {
+    font-size: 40px;
+    padding-top: 2.5rem;
+  }
+  .largeCard {
+    display: flex;
+    flex: 1;
+    width: 100%;
+    flex-direction: row;
+  }
+  .imageContainer image {
+    width: 40px;
+    margin: 5px;
+  }
+  .container {
+    display: flex;
+    padding: 50px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .desc {
+    font-size: 20px;
+    padding-top: 1.5rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+}
