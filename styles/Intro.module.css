@@ -68,6 +68,12 @@
   background-color: white;
 }
 
+@media screen and (max-width: 680px) {
+  .card {
+    text-align: center;
+  }
+}
+
 @media screen and (max-width: 480px) {
   .card {
     padding: 20px;
