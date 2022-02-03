@@ -41,6 +41,9 @@
 @media screen and (max-width: 690px) {
   .container {
     padding: 0 5px;
+    position: fixed;
+    width: 100%;
+    z-index: 999;
   }
 }
 
