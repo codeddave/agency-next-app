@@ -16,7 +16,7 @@
 .wrapper {
   display: flex;
   justify-content: space-between;
-  padding: 0 100px;
+  padding: 0 80px;
 }
 
 .card {
@@ -50,4 +50,23 @@
 
 .jobTitle {
   font-size: 14px;
+}
+
+@media screen and (max-width: 680px) {
+  .title {
+    margin-bottom: 10px;
+  }
+  .wrapper {
+    padding: 0;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  .card {
+    margin-top: 2rem;
+    width: 80%;
+  }
+}
+
+@media screen and (max-width: 480px) {
 }
