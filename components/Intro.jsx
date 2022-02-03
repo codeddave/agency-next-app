@@ -11,9 +11,7 @@ const Intro = () => {
           src="/img/agency-six.jpg"
           layout="fill"
           objectFit="cover"
-          height="100%"
-          width="100%"
-          alt=""
+          alt="jmg"
         />
       </div>
 
